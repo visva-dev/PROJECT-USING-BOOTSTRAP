@@ -11,7 +11,6 @@ body {
 
 .container {
     background-color: white;
-    border: 1px solid green;
     height: 100vh;
     max-width: 1310px;
     padding: 0;
@@ -23,16 +22,6 @@ body {
     margin: 0;
 }
 
-.nav-midle {
-    padding: 0;
-    margin: 0;
+.bottom-nav {
+    border-bottom: 2px solid #f4f5f6;
 }
-.nav-midle a {
-    font-size: 6rem;
-    color: white;
-    font-weight: 900;
-}
-
-/* .navbar {
-    background-color: #f72210;
-} */
