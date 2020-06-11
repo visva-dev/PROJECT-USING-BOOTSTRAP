@@ -1,94 +1,121 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 body {
-    background-color: #f4f5f6;
-    font-family: 'Slabo 27px', serif;
+  background-color: #f4f5f6;
+  font-family: 'Slabo 27px', serif;
 }
 
 .container {
-    background-color: white;
-    max-width: 1310px;
-    padding: 0;
+  background-color: white;
+  max-width: 1310px;
+  padding: 0;
 }
 
 .top-navbar {
-    background-color: #f72210;
-    padding: 5px;
-    margin: 0;
+  background-color: #f72210;
+  padding: 5px;
+  margin: 0;
 }
 
 .bottom-nav {
-    border-bottom: 2px solid #f4f5f6;
+  border-bottom: 2px solid #f4f5f6;
 }
 
 .category {
-    display: flex;
-    font: bold 17px/16px "Roboto Condensed",sans-serif;
-    color: #f72210;
-    text-transform: uppercase;
-    padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
-    position: absolute;
-    left: 0;
-    bottom: 196px;
+  display: flex;
+  font: bold 17px/16px 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 0;
+  bottom: 196px;
 }
 
 .category-2 {
-    display: flex;
-    position: absolute;
-    font: bold 13px/20px "Roboto condensed",Arial,sans-serif;
-    background-color: rgb(188, 228, 236);
-    text-transform: uppercase;
-    padding: 2px 6px 2px;
-    bottom: 196px;
-    left: 0;
+  display: flex;
+  position: absolute;
+  font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
+  background-color: rgb(188, 228, 236);
+  text-transform: uppercase;
+  padding: 2px 6px 2px;
+  bottom: 196px;
+  left: 0;
 }
 
 .category-3 {
-    display: flex;
-    position: absolute;
-    font: bold 13px/20px "Roboto condensed",Arial,sans-serif;
-    color: #f72210;
-    padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
-    text-transform: uppercase;
-    bottom: 148px;
-    left: 0;
+  display: flex;
+  position: absolute;
+  font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
+  color: #f72210;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  bottom: 148px;
+  left: 0;
 }
 
 .category-4 {
-    display: flex;
-    position: absolute;
-    font: bold 13px/20px "Roboto condensed",Arial,sans-serif;
-    color: #3581f4;
-    padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
-    text-transform: uppercase;
-    bottom: 148px;
-    left: 0;
+  display: flex;
+  position: absolute;
+  font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
+  color: #3581f4;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  bottom: 148px;
+  left: 0;
 }
 
 .category-5 {
-    display: flex;
-    font: bold 17px/16px "Roboto Condensed",sans-serif;
-    color: #3581f4;
-    text-transform: uppercase;
-    padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
-    position: absolute;
-    left: 0;
-    bottom: 196px;
+  display: flex;
+  font: bold 17px/16px 'Roboto Condensed', sans-serif;
+  color: #3581f4;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 0;
+  bottom: 196px;
+}
+
+.category-6 {
+  display: flex;
+  font: bold 17px/16px 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 0;
+  bottom: 88px;
 }
 
 .vs-img {
-    display: flex;
-    font: bold 13px/20px "Roboto condensed",Arial,sans-serif;
-    padding: 8px 15px 9px;
-    text-transform: uppercase;
-    bottom: -28px;
-    z-index: 1;
+  display: flex;
+  font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
+  padding: 8px 15px 9px;
+  text-transform: uppercase;
+  bottom: -28px;
+  z-index: 1;
+}
+
+.see-all {
+  margin-top: -1.3rem !important;
+  margin-left: -1.3rem !important;
+  margin-right: -1.3rem !important;
+  padding: 1rem;
+}
+
+.periscope-culture {
+    margin-top: 1rem;
+}
+
+.periscope-culture img {
+    width: auto;
 }
