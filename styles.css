@@ -71,3 +71,24 @@ body {
     bottom: 148px;
     left: 0;
 }
+
+.category-5 {
+    display: flex;
+    font: bold 17px/16px "Roboto Condensed",sans-serif;
+    color: #3581f4;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+    position: absolute;
+    left: 0;
+    bottom: 196px;
+}
+
+.vs-img {
+    display: flex;
+    font: bold 13px/20px "Roboto condensed",Arial,sans-serif;
+    padding: 8px 15px 9px;
+    text-transform: uppercase;
+    bottom: -28px;
+    z-index: 1;
+}
