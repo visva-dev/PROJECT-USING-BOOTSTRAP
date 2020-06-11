@@ -34,20 +34,8 @@ body {
     background-color: rgba(255,255,255,.9);
     position: absolute;
     left: 0;
-    bottom: 148px;
+    bottom: 196px;
 }
-
-/* .category-2 {
-    display: flex;
-    font: bold 17px/16px "Roboto Condensed",sans-serif;
-    color: black;
-    text-transform: uppercase;
-    padding: 8px 15px 9px;
-    background-color: rgb(188, 228, 236);
-    position: absolute;
-    left: 0;
-    bottom: 148px;
-} */
 
 .category-2 {
     display: flex;
@@ -57,5 +45,17 @@ body {
     text-transform: uppercase;
     padding: 2px 6px 2px;
     bottom: 196px;
+    left: 0;
+}
+
+.category-3 {
+    display: flex;
+    position: absolute;
+    font: bold 13px/20px "Roboto condensed",Arial,sans-serif;
+    color: #f72210;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+    text-transform: uppercase;
+    bottom: 148px;
     left: 0;
 }
