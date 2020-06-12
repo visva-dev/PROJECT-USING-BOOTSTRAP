@@ -114,8 +114,15 @@ body {
 
 .periscope-culture {
     margin-top: 1rem;
+    margin-left: -0.6rem !important;
+    margin-right: -0.6rem !important;
+    width: 30%;
 }
 
 .periscope-culture img {
     width: auto;
+}
+
+.features2 img {
+  width: auto;
 }
