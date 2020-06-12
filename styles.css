@@ -134,3 +134,13 @@ body {
   margin-right: -3rem !important;
   margin-top: 2rem !important;
 }
+
+.the-end {
+  position: relative;
+  left: -120px;
+  top: 18px;
+}
+
+.in-depth {
+  margin-left: -6rem !important;
+}
