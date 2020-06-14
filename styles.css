@@ -34,7 +34,7 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   left: 0;
-  bottom: 196px;
+  bottom: 172px;
 }
 
 .category-2 {
@@ -93,7 +93,19 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   left: 0;
-  bottom: 88px;
+  bottom: 71px;
+}
+
+.category-7 {
+  display: flex;
+  position: absolute;
+  font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
+  color: #f72210;
+  background-color: rgb(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  padding: 2px 6px 2px;
+  bottom: 196px;
+  left: 0;
 }
 
 .vs-img {
@@ -101,8 +113,13 @@ body {
   font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
   padding: 8px 15px 9px;
   text-transform: uppercase;
-  bottom: -28px;
+  bottom: -20px;
   z-index: 1;
+}
+
+.vs-line {
+  margin-bottom: -5px;
+  margin-top: -15px;
 }
 
 .see-all {
@@ -110,6 +127,7 @@ body {
   margin-left: -1.3rem !important;
   margin-right: -1.3rem !important;
   padding: 1rem;
+  margin-bottom: -5px !important;
 }
 
 .periscope-culture {
@@ -148,4 +166,8 @@ body {
 .Starting5 img {
   width: 9rem;
   height: 16rem;
+}
+
+.text-position {
+  margin-left: -1.1rem !important;
 }
