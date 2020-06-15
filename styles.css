@@ -13,12 +13,12 @@ body {
   background-color: white;
   max-width: 1310px;
   padding: 0;
+  padding-top: 8em;
 }
 
-.top-navbar {
-  background-color: #f72210;
-  padding: 5px;
-  margin: 0;
+.navbar {
+  max-width: 1310px;
+  margin: auto;
 }
 
 .bottom-nav {
@@ -81,7 +81,7 @@ body {
 }
 
 .periscope-culture {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-left: -0.6rem !important;
     margin-right: -0.6rem !important;
 }
