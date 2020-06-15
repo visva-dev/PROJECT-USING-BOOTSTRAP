@@ -121,3 +121,16 @@ body {
 .text-position {
   margin-left: -1.1rem !important;
 }
+
+.skew {
+  position: relative;
+  top: 4.3rem;
+  right: -1em;
+  width: 60px;
+  height: 25px;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
+}
+
+.form-control {
+  width: 40% !important;
+}
