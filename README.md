@@ -1,6 +1,6 @@
-# Solo-Using Bootstrap
+# Solo-PROJECT-USING-BOOTSTRAP
 
-Building with Using Bootstrap Project
+In this project, i'm using Twitter’s Bootstrap framework to build a site – Newsweek.
 
 ![screenshot](./images/pKZGbOv.png)
 
