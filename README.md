@@ -1,19 +1,20 @@
-# Solo-Apple-Project
+# Solo-Using Bootstrap
 
-Building with Backgrounds and Gradients Project
+Building with Using Bootstrap Project
 
-![screenshot](./images/GvtAbDl.jpg)
+![screenshot](./images/pKZGbOv.png)
 
-The page tries to replicate as much as possible the old version of Apple Web page.
+The page tries to replicate as much as possible the NewsWeek Web page.
 
 ## Built With
 
 - Html,
 - CSS
+- BootStrap
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/visva-dev/Solo-Apple-Project/6a8a9ad4537f080da647ae7fbd5ba913bacd8a13/index.html)
+[Live Demo Link](https://rawcdn.githack.com/visva-dev/PROJECT-USING-BOOTSTRAP/ac829047743c94a582237e50f9d39063ff7c0b41/index.html)
 
 ## Authors
 
@@ -21,7 +22,7 @@ The page tries to replicate as much as possible the old version of Apple Web pag
 
 - Github: [@visva-dev](https://github.com/visva-dev)
 - Twitter: [@Visva_Dev](https://twitter.com/Visva_Dev)
-- Linkedin: [@Visvaldas-Rapalis](https://www.linkedin.com/in/visvaldas-rapalis-009797b9/)
+- Linkedin: [@Visvaldas-Rapalis](https://www.linkedin.com/in/visvaldas-rapalis/)
 
 ## 🤝 Contributing
 
