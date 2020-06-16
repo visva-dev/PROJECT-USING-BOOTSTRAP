@@ -12,13 +12,6 @@ body {
 .container {
   background-color: white;
   max-width: 1310px;
-  padding: 0;
-  padding-top: 8em;
-}
-
-.navbar {
-  max-width: 1310px;
-  margin: auto;
 }
 
 .bottom-nav {
@@ -113,11 +106,6 @@ body {
   margin-left: -6rem !important;
 }
 
-.Starting5 img {
-  width: 9rem;
-  height: 16rem;
-}
-
 .text-position {
   margin-left: -1.1rem !important;
 }
@@ -130,7 +118,6 @@ body {
   height: 25px;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
 }
-
-.form-control {
-  width: 5em !important;
-}
+/* 
+@media only screen and (max-width: 1024px) {
+} */
