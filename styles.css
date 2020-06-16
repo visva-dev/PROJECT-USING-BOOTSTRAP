@@ -25,7 +25,7 @@ body {
 .category-5,
 .category-6,
 .category-7 {
-  font: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   color: #f72210;
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.9);
@@ -74,13 +74,13 @@ body {
 }
 
 .periscope-culture {
-    margin-top: 1.5rem;
-    margin-left: -0.6rem !important;
-    margin-right: -0.6rem !important;
+  margin-top: 1.5rem;
+  margin-left: -0.6rem !important;
+  margin-right: -0.6rem !important;
 }
 
 .periscope-culture img {
-    width: auto;
+  width: auto;
 }
 
 .features2 img {
@@ -120,39 +120,39 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-.category,
-.category-2,
-.category-3,
-.category-4,
-.category-5,
-.category-6,
-.category-7 {
-  font: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0.9);
-  bottom: 15.2em;
-}
+  .category,
+  .category-2,
+  .category-3,
+  .category-4,
+  .category-5,
+  .category-6,
+  .category-7 {
+    font: 'Roboto Condensed', sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.9);
+    bottom: 15.2em;
+  }
 
-.category-1 {
-  bottom: 18.2rem;
-}
+  .category-1 {
+    bottom: 18.2rem;
+  }
 
-.category-2 {
-  bottom: 13.8rem;
-}
+  .category-2 {
+    bottom: 13.8rem;
+  }
 
-.category-3,
-.category-4 {
-  bottom: 9.2em;
-}
+  .category-3,
+  .category-4 {
+    bottom: 9.2em;
+  }
 
-.category-4,
-.category-5 {
-  color: #3581f4;
-}
+  .category-4,
+  .category-5 {
+    color: #3581f4;
+  }
 
-.category-6 {
-  bottom: 5.9em;
-}
+  .category-6 {
+    bottom: 5.9em;
+  }
 }
