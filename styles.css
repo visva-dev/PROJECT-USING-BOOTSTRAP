@@ -118,6 +118,41 @@ body {
   height: 25px;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
 }
-/* 
-@media only screen and (max-width: 1024px) {
-} */
+
+@media only screen and (max-width: 992px) {
+.category,
+.category-2,
+.category-3,
+.category-4,
+.category-5,
+.category-6,
+.category-7 {
+  font: 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 15.2em;
+}
+
+.category-1 {
+  bottom: 18.2rem;
+}
+
+.category-2 {
+  bottom: 13.8rem;
+}
+
+.category-3,
+.category-4 {
+  bottom: 9.2em;
+}
+
+.category-4,
+.category-5 {
+  color: #3581f4;
+}
+
+.category-6 {
+  bottom: 5.9em;
+}
+}
