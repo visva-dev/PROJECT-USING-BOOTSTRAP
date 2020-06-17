@@ -127,6 +127,12 @@ body {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
 }
 
+/* @media only screen and (max-width: 767px) {
+  .debate {
+
+  }
+} */
+
 @media only screen and (max-width: 992px) {
   .category,
   .category-2,
