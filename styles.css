@@ -37,7 +37,7 @@ body {
   color: #f72210;
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.9);
-  bottom: 12.2em;
+  bottom: 10.7em;
 }
 
 .category-3,
@@ -162,5 +162,15 @@ body {
 
   .category-6 {
     bottom: 5.9em;
+  }
+
+  .vs-img {
+    display: flex;
+    font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
+    padding: 8px 15px 9px;
+    text-transform: uppercase;
+    bottom: -20px;
+    z-index: 1;
+    left: 50%;
   }
 }
