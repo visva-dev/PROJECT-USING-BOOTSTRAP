@@ -1,17 +1,26 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   list-style-type: none;
 }
 
 body {
   background-color: #f4f5f6;
   font-family: 'Slabo 27px', serif;
+  overflow-x: hidden;
 }
 
 .container {
   background-color: white;
-  max-width: 1310px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .bottom-nav {
