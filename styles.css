@@ -8,19 +8,18 @@
 body {
   background-color: #f4f5f6;
   font-family: 'Slabo 27px', serif;
-  overflow-x: hidden;
 }
 
 .container {
   background-color: white;
-  margin: 0 auto;
+  max-width: 1310px;
   padding-left: 0;
   padding-right: 0;
+  overflow-x: hidden;
 }
 
 .navbar {
   width: 100%;
-  margin: 0 auto;
 }
 
 .bottom-nav {
