@@ -28,49 +28,36 @@ body {
 
 .category {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 10.7em;
 }
 
 .category-2 {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
   bottom: 10.7em;
 }
 
 .category-3 {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
   bottom: 9.2em;
 }
 
 .category-4 {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
   bottom: 10.7em;
 }
 
 .category-5 {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
   bottom: 12.2em;
 }
 
 .category-6 {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
   bottom: 5.9em;
 }
 
 .category-7 {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
   bottom: 12.2em;
 }
 
@@ -129,46 +116,49 @@ body {
   .sub-top-btn {
     font-size: 10px;
   }
-}
 
-@media only screen and (max-width: 960px) {
   .category {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #f72210;
-    background-color: rgba(255, 255, 255, 0.9);
-    bottom: 9.2em;
+    bottom: 12.2em;
+  }
+
+  .category-1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 12.2em;
   }
 
   .category-2 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #f72210;
-    background-color: rgba(255, 255, 255, 0.9);
-    bottom: 12.2em;
+    bottom: 7.7em;
+  }
+
+  .category-3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 6.2em;
   }
 
   .category-5 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #f72210;
-    background-color: rgba(255, 255, 255, 0.9);
-    bottom: 9.2em;
+    bottom: 6.2em;
   }
 
   .category-6 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #f72210;
-    background-color: rgba(255, 255, 255, 0.9);
     bottom: 5.6em;
   }
 
   .category-7 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #f72210;
-    background-color: rgba(255, 255, 255, 0.9);
-    bottom: 9.2em;
+    bottom: 6.2em;
+  }
+
+  .category-8 {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 6.2em;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .vs-img {
     display: flex;
     font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
@@ -180,5 +170,40 @@ body {
 
   .skew {
     top: 3.8rem;
+  }
+
+  .category {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 13.2em;
+  }
+
+  .category-1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 18.2em;
+  }
+
+  .category-2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 13em;
+  }
+
+  .category-3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 9.2em;
+  }
+
+  .category-5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 18.2em;
+  }
+
+  .category-6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 6.6em;
+  }
+
+  .category-7 {
+    font-family: 'Roboto Condensed', sans-serif;
+    bottom: 15.2em;
   }
 }
