@@ -30,7 +30,6 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   color: #f72210;
   background-color: rgba(255, 255, 255, 0.9);
-  bottom: 10.7em;
 }
 
 .category-2 {
@@ -75,38 +74,6 @@ body {
   bottom: 12.2em;
 }
 
-/* .category,
-.category-2,
-.category-3,
-.category-4,
-.category-5,
-.category-6,
-.category-7 {
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
-  bottom: 10.7em;
-}
-
-.category-3,
-.category-4 {
-  bottom: 9.2em;
-}
-
-.category-4,
-.category-5 {
-  color: #3581f4;
-}
-
-.category-5,
-.category-7 {
-  bottom: 12.2em;
-}
-
-.category-6 {
-  bottom: 5.9em;
-} */
-
 .vs-img {
   display: flex;
   font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
@@ -120,35 +87,8 @@ body {
   margin-top: -15px;
 }
 
-.see-all {
-  margin-top: -1.3rem !important;
-  margin-left: -1.3rem !important;
-  margin-right: -1.3rem !important;
-  padding: 1rem;
-  margin-bottom: -5px !important;
-}
-
-.periscope-culture {
-  margin-top: 1.5rem;
-  margin-left: -0.6rem !important;
-  margin-right: -0.6rem !important;
-}
-
-.periscope-culture img {
-  width: auto;
-}
-
 .features2 img {
   width: auto;
-}
-
-.editors-pick {
-  margin-right: -1.5rem !important;
-}
-
-.editors2 {
-  margin-right: -3rem !important;
-  margin-top: 2rem !important;
 }
 
 .the-end {
@@ -174,12 +114,6 @@ body {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
 }
 
-/* @media only screen and (max-width: 600px) {
-  .sub-text {
-    margin-left: 80px;
-  }
-} */
-
 @media only screen and (max-width: 767px) {
   .sub-text {
     display: flex;
@@ -190,6 +124,10 @@ body {
 
   .footer-info-top {
     flex-wrap: wrap;
+  }
+
+  .sub-top-btn {
+    font-size: 10px;
   }
 }
 
@@ -231,15 +169,6 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-  .see-all {
-    margin-top: -1.3rem !important;
-    margin-left: -1.3rem !important;
-    margin-right: -1.3rem !important;
-    padding: 1rem;
-    margin-bottom: -5px !important;
-    font-size: 1rem;
-  }
-
   .vs-img {
     display: flex;
     font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
