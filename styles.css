@@ -35,7 +35,6 @@ body {
 .category-7 {
   font-family: 'Roboto Condensed', sans-serif;
   color: #f72210;
-  text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.9);
   bottom: 10.7em;
 }
@@ -63,7 +62,6 @@ body {
   display: flex;
   font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
   padding: 8px 15px 9px;
-  text-transform: uppercase;
   bottom: -20px;
   z-index: 1;
 }
@@ -143,7 +141,6 @@ body {
   .category-7 {
     font: 'Roboto Condensed', sans-serif;
     color: #f72210;
-    text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.9);
     bottom: 15.2em;
   }
@@ -183,7 +180,6 @@ body {
     display: flex;
     font: bold 13px/20px 'Roboto condensed', Arial, sans-serif;
     padding: 8px 15px 9px;
-    text-transform: uppercase;
     bottom: -20px;
     z-index: 1;
     left: 50%;
