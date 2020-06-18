@@ -167,7 +167,16 @@ body {
   }
 
   .category-6 {
-    bottom: 5.9em;
+    bottom: 6.8em;
+  }
+
+  .see-all {
+    margin-top: -1.3rem !important;
+    margin-left: -1.3rem !important;
+    margin-right: -1.3rem !important;
+    padding: 1rem;
+    margin-bottom: -5px !important;
+    font-size: 1rem;
   }
 
   .vs-img {
