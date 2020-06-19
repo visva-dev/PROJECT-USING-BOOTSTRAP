@@ -112,6 +112,7 @@ body {
 
 .text-position {
   margin-left: -1.1rem !important;
+  padding-top: 0;
 }
 
 .skew {
