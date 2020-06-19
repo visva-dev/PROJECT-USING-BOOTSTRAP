@@ -26,9 +26,31 @@ body {
   border-bottom: 2px solid #f4f5f6;
 }
 
+.search input {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) no-repeat;
+  background-size: 20px;
+  background-position: right center;
+}
+
 .category {
   font-family: 'Roboto Condensed', sans-serif;
   bottom: 10.7em;
+}
+
+/* .category99 {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: seagreen;
+  width: 10px;
+  max-height: 100px;
+} */
+
+.tag {
+  display: block;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  position: relative;
+  top: 174px;
+  height: 30px;
+  padding: 8px 15px 9px;
 }
 
 .category-2 {
@@ -94,9 +116,7 @@ body {
 
 .skew {
   position: relative;
-  top: 4.3rem;
-  right: -1em;
-  width: 60px;
+  width: 80px;
   height: 25px;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
 }
@@ -169,7 +189,8 @@ body {
   }
 
   .skew {
-    top: 3.8rem;
+    position: relative;
+    top: 0;
   }
 
   .category {

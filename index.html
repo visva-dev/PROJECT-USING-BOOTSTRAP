@@ -49,9 +49,9 @@
                 >Newsweek</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item ml-5">
               <a
-                class="nav-link font-weight-bolder d-none d-lg-block display-3 text-white"
+                class="nav-link font-weight-bolder d-none d-lg-block display-2 text-white"
                 href="#"
                 >Newsweek</a
               >
@@ -64,7 +64,7 @@
                 ><i class="far fa-user"></i
               ></a>
             </li>
-            <li class="nav-item p-1">
+            <li class="nav-item p-1 ml-2">
               <a
                 class="nav-link login font-weight-bolder text-white d-none d-md-block"
                 href="#"
@@ -74,7 +74,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#"
                 ><p
-                  class="btn btn-warning rounded-pill pl-3 pr-3 font-weight-bold sub-top-btn"
+                  class="btn btn-warning rounded-pill font-weight-bold sub-top-btn"
                 >
                   SUBSCRIBE &#62;
                 </p></a
@@ -85,67 +85,34 @@
                 <i class="fas fa-bars fa-2x d-lg-none mt-1 text-white-50"></i
               ></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-              <div class="skew bg-danger d-none d-lg-block"></div>
-            </li>
           </ul>
         </nav>
 
-        <nav
-          class="nav bottom-nav d-none d-lg-flex justify-content-around font-weight-bolder"
-        >
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">U.S</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#">World</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#">Business</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#"
-                >Tech & Science</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#">Culture</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#">Newsgeek</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#">Sports</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#">Health</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#">The Debate</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#">Vantage</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark border-left" href="#">Weather</a>
-            </li>
-            <li class="nav-item">
-              <form class="form-inline">
-                <input
-                  type="email"
-                  class="form-control border-0 form-control-sm"
-                  id="exampleFormControlInput1"
-                  placeholder="Search"
-                  value
-                  size="5"
-                  maxlength="128"
-                /><i class="fas fa-search"></i>
-              </form>
-            </li>
-          </ul>
-        </nav>
+        <div class="bottom-nav d-none d-lg-flex justify-content-around">
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">U.S.</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">World</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">Business</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">Tech & Science</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">Culture</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">Newsgeek</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">Sports</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">Health</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">The Debate</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around border-right"><a class="text-dark font-weight-bold h6 m-0" href="#">Vantage</a></div> 
+          <div class="my-3 m-0 flex-fill d-flex justify-content-around"><a class="text-dark font-weight-bold h5 m-0" href="#">Weather</a></div> 
+          <form class="form-inline search my-1 m-0 flex-fill d-flex justify-content-around">
+            <input
+              type="email"
+              class="form-control-lg border-0"
+              id="exampleFormControlInput1"
+              placeholder="Search"
+              value
+              size="7"
+              maxlength="128"
+            />
+          </form>
+          <div class="skew bg-danger d-none d-lg-block"></div>
+      </div>
       </header>
 
       <div class="row">
@@ -154,14 +121,13 @@
             FEATURED STORIES
           </p>
           <div class="card border-0">
-            <div class="category-3 category-4 text-danger bg-white position-absolute p-1 font-weight-bold">
-              U.S.
-            </div>
+            <a href="#">
             <img
               src="./images/crossfit.jpg"
-              class="card-img-top rounded-0"
+              class="card-img-top rounded-0 w-100"
               alt="image"
             />
+                <span class="text-danger bg-light p-1 font-weight-bolder" style="position: relative; bottom: 25px;">U.S.</span>
             <div class="card-body text-position">
               <h5 class="card-title text-black font-weight-bold">
                 Looking for a Powerful, Lightweight and Long-lasting Cordless
@@ -172,19 +138,19 @@
                 the bulk of the card's content.
               </p>
             </div>
+            </a>
           </div>
 
           <div class="card border-0">
-            <div class="category-3 category-4 text-danger bg-white position-absolute p-1 font-weight-bold">
-              U.S.
-            </div>
+            <a href="#" class="underline-link">
             <img
               src="./images/crossfit.jpg"
-              class="card-img-top rounded-0"
+              class="card-img-top rounded-0 w-100"
               alt="image"
             />
+              <span class="text-danger bg-white p-1 font-weight-bolder" style="position: relative; bottom: 25px;">U.S.</span>
             <div class="card-body text-position">
-              <h5 class="card-title text-black font-weight-bold">
+              <h5 class="card-title text-dark font-weight-bold">
                 Looking for a Powerful, Lightweight and Long-lasting Cordless
                 Vacuum?
               </h5>
@@ -193,10 +159,11 @@
                 the bulk of the card's content.
               </p>
             </div>
+          </a>
           </div>
 
           <div class="card border-0">
-            <div class="category-3 category-4 text-danger bg-white position-absolute p-1 font-weight-bold">
+            <div class="tag text-danger bg-white position-absolute p-1 font-weight-bold">
               U.S.
             </div>
             <img
