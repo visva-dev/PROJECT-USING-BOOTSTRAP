@@ -89,6 +89,7 @@ body {
   padding: 8px 15px 9px;
   bottom: -20px;
   z-index: 1;
+  left: 20%;
 }
 
 .vs-line {
