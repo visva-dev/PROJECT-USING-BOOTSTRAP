@@ -14,7 +14,7 @@ The page tries to replicate as much as possible the NewsWeek Web page.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/visva-dev/PROJECT-USING-BOOTSTRAP/16b4c750cf2036c3ba2fab6e4cbd68c061dc048f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/visva-dev/PROJECT-USING-BOOTSTRAP/8f3e5b03c011e4fea564f4446baf80594dcd7b35/index.html)
 
 ## Authors
 
