@@ -86,7 +86,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 5%;
+    left: 15%;
     bottom: 20px;
     z-index: 1;
   }
@@ -95,8 +95,8 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 35%;
-    bottom: 10px;
+    left: 44%;
+    bottom: 0;
     z-index: 1;
   }
 
@@ -104,7 +104,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 80px;
+    left: 80%;
     bottom: 10px;
     z-index: 1;
   }
@@ -113,7 +113,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 0;
+    left: 50px;
     bottom: 10px;
     z-index: 1;
   }
